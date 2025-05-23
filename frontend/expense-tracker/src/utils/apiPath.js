@@ -1,5 +1,5 @@
 // export const BASE_URL ="https://finance-back-3s8q.onrender.com";
-export const BASE_URL ="http://localhost:8000";
+export const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 //utils/apiPath.js
 export const API_PATHS={
